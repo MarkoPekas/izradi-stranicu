@@ -12,14 +12,17 @@ module.exports = {
       backgroundColor: {
         '118AB2': '#118AB2',
         '073B4C': '#073B4C',
+        '06D6A0': '#06D6A0',
       },
       borderColor: {
         '118AB2': '#118AB2',
         '073B4C': '#073B4C',
+        '06D6A0': '#06D6A0',
       },
       textColor: {
         '118AB2': '#118AB2',
         '073B4C': '#073B4C',
+        '06D6A0': '#06D6A0',
       },
       minWidth: {
         '135px': '135px',

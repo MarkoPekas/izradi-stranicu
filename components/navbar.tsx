@@ -1,8 +1,8 @@
-import Navelem from './mini/navelem';
+import Navelem from './mini/Navelem';
 import Icon from './svg/Icon'
 const NavBar = () => {
     return (
-        <div className="w-full h-16 shadow-google flex items-center fixed top-0 left-0">
+        <div className="w-full h-16 shadow-google flex items-center fixed top-0 left-0 bg-white">
             <div className="px-3">
                 <Icon w={48} h={48} />
             </div>
