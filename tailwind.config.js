@@ -2,7 +2,9 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
+    fontFamily:{
+      'body': ['"Open Sans"'],
+    },extend: {
       boxShadow: {
         'google': '0 2px 4px -2px rgb(175 175 175 / 0.5)'
       },
@@ -13,6 +15,7 @@ module.exports = {
         '118AB2': '#118AB2',
         '073B4C': '#073B4C',
         '06D6A0': '#06D6A0',
+        'sexy': '#66f',
       },
       borderColor: {
         '118AB2': '#118AB2',
@@ -23,6 +26,7 @@ module.exports = {
         '118AB2': '#118AB2',
         '073B4C': '#073B4C',
         '06D6A0': '#06D6A0',
+        'sexy': '#66f',
       },
       minWidth: {
         '135px': '135px',
